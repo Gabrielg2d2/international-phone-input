@@ -28,7 +28,9 @@ export type InputProps = {
 
 const countryDefault = {
   name: 'Brasil',
-  icon: '/img/flags/brasil.png',
+  // icon: '/img/flags/brasil.png',
+  icon:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/800px-Flag_of_Brazil.svg.png',
   code: '55',
   mask: '(99) 99999-9999'
 }
